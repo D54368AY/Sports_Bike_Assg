@@ -1,0 +1,221 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots';
+   
+}
+
+.fnavbar i:hover{
+    transform: scale(2);
+}
+.fnavbar a:hover{
+    transform: scale(1.2);
+    background-color:white;
+    color:black;
+}
+
+
+.nav-wrapper {
+  background-color: black;
+}
+
+.slider {
+  background-color: grey;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #445a64;
+}
+
+
+.parallax-container {
+  min-height: 500px;
+  height: auto;
+}
+
+.icon-col {
+  color: #445a64;
+}
+
+.footer-one {
+  background: black;
+}
+
+.footer-two {
+  background: #242f35;
+}
+
+
+#container
+{
+    height: 100vh;
+    background: url('../images/163184.jpg') no-repeat center;
+    background-size: cover;
+ 
+}
+
+
+#contentSection
+{   
+    color: white;
+    height: 400px;
+    width: 750px;
+    position: absolute;
+    left: 5%;
+    top:200px;
+}
+#contentSection h2
+{
+    font-family: sans-serif;
+    font-size: 150px;
+    color: blueviolet;
+    font-weight: 900;
+}
+#contentSection p
+{ 
+    
+    padding: 0 0 0 20px;
+}
+#contentSection button
+{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: palegreen;
+    color: darkblue;
+    font-weight: 900;
+    margin: 20px 0;
+    z-index: 100;
+    position: absolute;
+}
+#contentSection button:hover
+{
+    animation: animate 1s linear;
+    background-color: #d40219;
+}
+@keyframes animate {
+    0%
+    {
+        transform: scale(1);
+    }
+    80%
+    {
+        transform: scale(0.60);
+    }
+    95%
+    {
+        transform: scale(1.50);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+
+
+
+#socialLinks
+{
+    height: 60px;
+    width: 600px;
+    position: absolute;
+    bottom: 4%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#socialLinks
+{
+    left: 5%;
+}
+
+#socialLinks #line
+{
+    height: 3px;
+    width: 200px;
+    background: #000;
+    border-radius: 30px;
+}
+#socialLinks i
+{
+    margin: 0px 30px;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+#socialLinks i
+{
+    color: #d40219;
+    font-size: 36px;
+}
+#socialLinks i:hover
+{
+    color: #000;
+}
+#socialLinks #line
+{
+    background: #d40219;
+}
+
+div h3{
+    color: gold;
+}
+div h5{
+    color: magenta;
+}
+
+
+/*          Contact Us        */
+ 
+  input[type=submit] {
+    background-color: plum;
+    color: white;
+    padding: 12px 20px;
+    height: 50px;
+    width:200px;
+    margin-top: 30px;
+    margin-left: 30%;
+    border-radius: 10%;
+    font-size: larger;
+    font-weight: bolder;
+    color:black;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+   
+  }
+  
+  /* Style the container/contact section */
+
+  .boxing{
+      border:3px solid black;
+  }
+
+  /* Create two columns that float next to eachother */
+
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+  }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
