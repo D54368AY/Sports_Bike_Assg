@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <!-- google font -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
@@ -17,13 +18,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
-
+ 
 </head>
 <body>
     <section class="fnavbar">
         <nav class="nav-fixed">
             <div class="nav-wrapper">
-              <a href="#" class="brand-logo" style="padding-left : 17px;">Car Lover</a>
+              <a href="#" class="brand-logo" style="padding-left : 17px;">Bikerzz</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="product.html"><i class="material-icons left">home</i>Home</a></li>
@@ -44,30 +45,33 @@
 
 <div class="container" >
   <div style="text-align:center;margin-top: 10px;background:plum">
-    <h2 style="font-size: 70px;">Contact Us</h2>
+    <h2 id="head_contact" >Contact Us</h2>
     <p>Swing by ride of Bikers, or leave us a message:</p>
   </div>
-  <div class="row  boxing">
-    <div class="column">
-      <img src="images/163138.jpg" style="width:100%;height: 550px;">
+  <div class="row  boxing" id="col">
+    <div class="column" >
+      <img src="images/163138.jpg" id="contact_img" style="width:100%">
     </div>
+
     <div class="column">
-       <form action="index.html" >
+      <p id="success" style="color: blue;font-size: medium;"></p>
+      <div class="form-group">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname"  placeholder="Your name..">
-        <p id="error1"></p>
+        <input type="text" id="fname" name="Fname"  placeholder="Your name.." >
+        <p id="error1" name="error1"></p>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname"  placeholder="Your last name..">
-        <p id="error2"></p>
+        <input type="text" id="lname" name="lname"  placeholder="Your last name.." >
+        <p id="error2" name="error2"></p>
         <label for="email">Email Id</label>
-        <input type="text" id="mailid" name="mailid"  placeholder="Your Mail Id...">
-        <p id="error3"></p>
+        <input type="text" id="mailid" name="mailid"  placeholder="Your Mail Id..." >
+        <p id="error3" name="error3"></p>
         
         <label for="subject">Write Your Query...</label>
-        <textarea id="subject" name="subject"  placeholder="Write something.." style="height: 100px;"></textarea>
-        <p id="error4"></p>
-        <input type="submit" value="Submit" >
-      </form> 
+        <textarea id="subject" name="subject"  placeholder="Write something.." style="height: 100px;" ></textarea>
+        <p id="error4" name="error4"></p>
+       <button onclick="validate()" >Submit</button> 
+         <!-- <input type="submit" value="submit" > -->
+      </div>
 
 
     </div>
@@ -80,14 +84,14 @@
                 <div class="row">
                     <div class="col l6 s12">
                         <h4 class="white-text">Contact us</h4>
-                        <p class="grey-text"><a href="https://www.google.co.in/maps/place/149,+Gangotri+Socity,+Chikuwadi,+Nana+Varachha,+Surat,+Gujarat+395006/@21.216314,72.8784153,17z/data=!3m1!4b1!4m5!3m4!1s0x3be04f7206947203:0xc5a6b747cc92e17b!8m2!3d21.216314!4d72.880604?hl=en&authuser=0"><i class="material-icons left">home</i>149 BOss Masters Bikers</a></p>
+                        <p class="grey-text"><a href="https://www.google.com/maps/place/KTM+Husqvarna+Akurdi/@18.6463757,73.7685824,15z/data=!4m5!3m4!1s0x0:0x53ac2cb8806148a6!8m2!3d18.6463899!4d73.7685894"><i class="material-icons left">home</i>149 BOSS Masters Bikers</a></p>
                         <p class="grey-text"><a href="https://web.whatsapp.com/"><i class="material-icons left">phone</i>+91 9328126153</a></p>
                     </div>
                     <div class="col l6 s12">
                         <h4 class="white-text">Social Media</h4>
                         <ul>
-                            <li><a href="https://www.facebook.com/" class="grey-text fa fa-facebook"> Facebook</a></li>
-                            <li><a href="https://www.instagram.com/" class="grey-text fa fa-instagram"> Instagram</a></li>
+                            <li><a href="https://www.facebook.com/lovelycars/" class="grey-text fa fa-facebook"> Facebook</a></li>
+                            <li><a href="https://www.instagram.com/x_saurabh_x_/" class="grey-text fa fa-instagram"> Instagram</a></li>
                         </ul>
                     </div>
                 </div>
